@@ -1,0 +1,29 @@
+{
+    "name": "adsi-compra-venta",
+    "version": "1.0.0",
+    "description": "Adsi sistema de compra venta",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app",
+        "dev": "nodemon app"
+    },
+    "type": "module",
+    "keywords": [
+        "compra",
+        "venta",
+        "node",
+        "vue"
+    ],
+    "author": "FABIAN ALONSO VARGAS GUALDRON",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-validator": "^6.10.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.12.0",
+        "update-node": "^0.1.0"
+    }
+}
